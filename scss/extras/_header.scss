@@ -1,0 +1,51 @@
+//IMPORT
+
+@import "variables";
+
+
+header{
+
+    img{
+        width: 20%
+    }
+    h1{
+    font-size: 60px;
+    color: $color-principal;
+    margin-bottom: 0px;
+    }   
+    h2{
+    font-size: 30px;
+    color: slategrey;
+    margin-bottom: 10px;
+    }
+    nav ul {
+    background-color: darkgrey;
+    width: 100%;
+    display: flex;
+    padding: 30px 0px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    text-align: center;
+    li {
+        text-align: center;
+        text-wrap: wrap;
+        display: inline-block;
+        }
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    header nav ul {
+        display: block;
+        padding: 5px 0px;
+        li {
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+}

@@ -1,0 +1,60 @@
+//IMPORT
+
+@import "variables";
+
+footer {
+    position: relative;
+    bottom: 0;
+    img{
+        width: 100px;
+    }
+    section {
+        background-color: darkgrey;
+        display: grid;
+        border: 1px solid black;
+        grid-template-rows: 120px   ;
+        grid-template-columns: 1fr 2fr 1fr;
+        div img {
+            height: 100%;
+            display: block;
+            margin: auto;
+            width: initial;
+        }
+    } 
+    #direccion {
+        display: flex;
+    }
+    #direccion p {
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 20px;
+    }
+    #redes {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+} 
+
+@media only screen and (min-width: 1024px) {
+    #redes a img {
+        width: 64px;
+        height: 64px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+    #redes a img {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    #redes a img {
+        width: 24px;
+        height: 24px;
+    }
+}

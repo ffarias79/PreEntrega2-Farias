@@ -1,0 +1,60 @@
+/* DEFAULT */
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+    line-height: initial;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    margin-top: initial;
+    margin-bottom: initial;
+    line-height: initial;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+p {
+    margin-top: initial;
+    margin-bottom: initial;
+}
+
+/* DEFAULT */
+/* LINKS */
+
+a {
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    cursor: pointer;
+    color: firebrick;
+}
+/* LINKS */
+/* HEADER */
+
+@import "extras/header";
+
+/* HEADER */
+/* MAIN */
+
+@import "extras/main";
+
+/* MAIN */
+/* FOOTER */
+@import "extras/footer";
